@@ -17,6 +17,7 @@ int endTimeHour = 12;
 int endTimeMins = 30;
 
 void setup() {
+  // Define the IO pin which thorugh you emit the signal
   pinMode(4, OUTPUT);
   // Initialize Serial Monitor
   Serial.begin(115200);
